@@ -1,0 +1,156 @@
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.staticwebassets.endpoints.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.exe
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.deps.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.runtimeconfig.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.pdb
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\Sprache.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.AssemblyReference.cache
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfoInputs.cache
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfo.cs
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.CoreCompileInputs.cache
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\scopedcss\bundle\AiGateway.styles.css
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.AiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.AiGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.AiGateway.props
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AiGateway.props
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AiGateway.props
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.Up2Date
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\refint\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.pdb
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.genruntimeconfig.cache
+C:\Users\לאה הצדיקה\Desktop\תכנות לימודים\AiGateway\AiGateway\obj\Debug\net8.0\ref\AiGateway.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.staticwebassets.endpoints.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.exe
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.deps.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.runtimeconfig.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.pdb
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Sprache.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.AssemblyReference.cache
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfoInputs.cache
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfo.cs
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.CoreCompileInputs.cache
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.sourcelink.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\scopedcss\bundle\AiGateway.styles.css
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.AiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.AiGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.AiGateway.props
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AiGateway.props
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AiGateway.props
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.Up2Date
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\refint\AiGateway.dll
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.pdb
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.genruntimeconfig.cache
+C:\Users\לאה הצדיקה\Documents\GitHub\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\ref\AiGateway.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.Development.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.staticwebassets.runtime.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.staticwebassets.endpoints.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.exe
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.deps.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.runtimeconfig.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.pdb
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\DotNetEnv.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Sprache.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.AssemblyReference.cache
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\rpswa.dswa.cache.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfoInputs.cache
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfo.cs
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cs
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cache
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.sourcelink.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\rjimswa.dswa.cache.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\scopedcss\bundle\AiGateway.styles.css
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.json.cache
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.development.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.Up2Date
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\refint\AiGateway.dll
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.pdb
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.genruntimeconfig.cache
+Z:\יד תשפו\ריינר לאה\MCP\MCP-Project\AiGateway\AiGateway\obj\Debug\net8.0\ref\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.staticwebassets.runtime.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.staticwebassets.endpoints.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.exe
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.deps.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.runtimeconfig.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\AiGateway.pdb
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\Sprache.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.AssemblyReference.cache
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfoInputs.cache
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.AssemblyInfo.cs
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.CoreCompileInputs.cache
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.sourcelink.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\scopedcss\bundle\AiGateway.styles.css
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.AiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.AiGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.AiGateway.props
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AiGateway.props
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AiGateway.props
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.csproj.Up2Date
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\refint\AiGateway.dll
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.pdb
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\AiGateway.genruntimeconfig.cache
+C:\Users\לאה הצדיקה\Desktop\new\mcp\AiGateway\AiGateway\obj\Debug\net8.0\ref\AiGateway.dll

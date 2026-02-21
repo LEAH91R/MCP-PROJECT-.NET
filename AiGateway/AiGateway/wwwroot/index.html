@@ -1,0 +1,561 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>מצא מתכון — AI מתכונים</title>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        :root {
+            --bg: #181c24;
+            --card: #23283a;
+            --glass: rgba(255,255,255,0.04);
+            --accent1: #ffb300;
+            --accent2: #00bcd4;
+            --muted: #b0b8c1;
+            --text: #f7fafc;
+            --success: #43e97b;
+            --danger: #ff4e4e;
+            --radius: 20px;
+            --maxW: 900px;
+            --shadow: 0 8px 32px 0 rgba(31,38,135,0.25);
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Varela Round', "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(120deg, #23283a 0%, #181c24 100%);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        .wrap {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+            box-sizing: border-box;
+        }
+
+        .stage {
+            width: 100%;
+            max-width: var(--maxW);
+            background: var(--glass);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 0;
+        }
+
+        .hero {
+            padding: 36px 32px 28px 32px;
+            background: linear-gradient(120deg, rgba(255,179,0,0.08) 0%, rgba(0,188,212,0.07) 100%);
+            border-radius: var(--radius);
+            box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+            border: 1.5px solid rgba(255,255,255,0.04);
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .title-row {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .logo {
+            width: 64px;
+            height: 64px;
+            border-radius: 16px;
+            display: grid;
+            place-items: center;
+            background: linear-gradient(135deg, var(--accent1), var(--accent2));
+            font-weight: 900;
+            color: white;
+            font-size: 28px;
+            box-shadow: 0 2px 16px rgba(255,179,0,0.12);
+            position: relative;
+        }
+
+            .logo i {
+                font-size: 32px;
+                color: #fffbe7;
+            }
+
+        .title {
+            font-size: 26px;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 15px;
+            margin: 0;
+            max-width: 700px;
+        }
+
+        .input-area {
+            display: flex;
+            gap: 18px;
+            align-items: flex-end;
+            margin-top: 8px;
+        }
+
+        .input-card {
+            flex: 1;
+            background: var(--card);
+            padding: 18px 16px 14px 16px;
+            border-radius: 14px;
+            border: 1.5px solid rgba(255,255,255,0.04);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+
+        label {
+            display: block;
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        textarea#ingredients {
+            width: 100%;
+            min-height: 110px;
+            padding: 14px;
+            border-radius: 10px;
+            border: 1.5px solid rgba(255,255,255,0.07);
+            background: rgba(0,0,0,0.22);
+            color: var(--text);
+            resize: vertical;
+            font-size: 16px;
+            outline: none;
+            font-family: inherit;
+            transition: border 0.2s;
+        }
+
+            textarea#ingredients:focus {
+                border: 1.5px solid var(--accent2);
+                background: rgba(0,188,212,0.07);
+            }
+
+        textarea::placeholder {
+            color: rgba(255,255,255,0.38);
+        }
+
+        .cta {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 220px;
+        }
+
+        .btn {
+            background: linear-gradient(90deg,var(--accent1),var(--accent2));
+            color: #23283a;
+            padding: 13px 0;
+            border-radius: 12px;
+            border: none;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 6px 24px rgba(255,179,0,0.10);
+            transition: background 0.2s, color 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+            .btn:disabled {
+                opacity: .55;
+                cursor: not-allowed;
+            }
+
+            .btn i {
+                font-size: 18px;
+            }
+
+        .loader {
+            height: 38px;
+            display: grid;
+            place-items: center;
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .result {
+            margin-top: 10px;
+            background: linear-gradient(120deg, rgba(255,255,255,0.02), rgba(0,188,212,0.03));
+            border-radius: 16px;
+            padding: 22px 18px;
+            border: 1.5px solid rgba(255,255,255,0.04);
+            display: grid;
+            gap: 16px;
+            align-items: start;
+            box-shadow: 0 2px 16px rgba(0,188,212,0.06);
+        }
+
+        .recipe-title {
+            font-size: 22px;
+            margin: 0;
+            font-weight: 700;
+            color: var(--accent1);
+            letter-spacing: 0.2px;
+        }
+
+        .recipe-desc {
+            color: var(--muted);
+            font-size: 15px;
+            margin: 0 0 8px 0;
+        }
+
+        .badges {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(255,255,255,0.08);
+            padding: 7px 14px;
+            border-radius: 999px;
+            font-size: 14px;
+            color: var(--accent2);
+            border: 1.5px solid rgba(255,255,255,0.08);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+            .badge i {
+                color: var(--accent1);
+            }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 18px;
+        }
+
+        @media (max-width:880px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: var(--card);
+            padding: 14px;
+            border-radius: 12px;
+            border: 1.5px solid rgba(255,255,255,0.04);
+            margin-bottom: 8px;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .item {
+            padding: 10px;
+            border-radius: 10px;
+            background: linear-gradient(90deg, rgba(255,255,255,0.015), rgba(0,188,212,0.03));
+            border: 1.5px solid rgba(255,255,255,0.04);
+            font-size: 15px;
+        }
+
+        .missing .item {
+            border-color: rgba(255,78,78,0.25);
+            box-shadow: 0 6px 20px rgba(255,78,78,0.06);
+        }
+
+        ol.instructions {
+            padding-right: 18px;
+            color: var(--text);
+            margin: 0;
+            font-size: 15px;
+        }
+
+        .sub {
+            font-size: 13px;
+            color: var(--muted);
+        }
+
+        .raw-toggle {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .raw {
+            background: rgba(0,0,0,0.35);
+            padding: 10px;
+            border-radius: 8px;
+            color: var(--muted);
+            font-size: 13px;
+            max-height: 220px;
+            overflow: auto;
+        }
+
+        footer.note {
+            color: var(--muted);
+            font-size: 13px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="stage">
+            <section class="hero" aria-labelledby="appTitle">
+                <div class="title-row">
+                    <div class="brand">
+                        <div class="logo" aria-hidden="true">
+                            <i class="bi bi-robot"></i>
+                        </div>
+                        <div>
+                            <h1 id="appTitle" class="title">מצא מתכון עם AI</h1>
+                            <p class="subtitle">
+                                הזן את רשימת המצרכים שיש לך בבית — ה-AI יציע מתכון טעים, יפרט מה חסר, וייתן הוראות הכנה בעברית.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="raw-toggle" style="opacity:0.9">
+                        <button id="copyBtn" class="btn" style="padding:8px 12px;font-size:14px">
+                            <i class="bi bi-clipboard"></i> העתק רשימת מוצרים
+                        </button>
+                    </div>
+                </div>
+
+                <div class="input-area" role="region" aria-label="הזן מרכיבים">
+                    <div class="input-card">
+                        <label for="ingredients"><i class="bi bi-basket"></i> רשימת מוצרים שברשותי</label>
+                        <textarea id="ingredients" placeholder="לדוגמה: חלב, ביצים, קמח, בצל, עגבניה, גבינה"></textarea>
+                    </div>
+                    <div class="cta" aria-hidden="false">
+                        <div id="loaderArea" class="loader" style="display:none">
+                            <i class="bi bi-stars"></i> שולח…
+                        </div>
+                        <button id="sendBtn" class="btn">
+                            <i class="bi bi-search"></i> מצא מתכון
+                        </button>
+                        <div class="sub">טיפ: השתמש ב-Enter+Ctrl לשליחה מהירה</div>
+                    </div>
+                </div>
+
+                <div id="resultRoot" class="result" style="display:none" aria-live="polite">
+                    <div class="grid">
+                        <div>
+                            <h2 id="recipeTitle" class="recipe-title">—</h2>
+                            <p id="recipeDesc" class="recipe-desc"></p>
+                            <div class="badges" id="badgesRow"></div>
+                            <div style="margin-top:12px" id="mainLists">
+                                <div class="panel" id="usedPanel">
+                                    <strong><i class="bi bi-check2-circle"></i> מרכיבים שנמצאו</strong>
+                                    <div id="usedList" class="list" style="margin-top:8px"></div>
+                                </div>
+                                <div class="panel missing" id="missingPanel" style="margin-top:10px;display:none">
+                                    <strong><i class="bi bi-exclamation-circle"></i> מרכיבים חסרים</strong>
+                                    <div id="missingList" class="list" style="margin-top:8px"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <aside>
+                            <div class="panel">
+                                <strong><i class="bi bi-list-ol"></i> הוראות הכנה</strong>
+                                <ol id="instructions" class="instructions" style="margin-top:8px"></ol>
+                            </div>
+                            <div class="panel" style="margin-top:10px">
+                                <strong><i class="bi bi-lightbulb"></i> תחליפים מוצעים</strong>
+                                <div id="subs" class="list" style="margin-top:8px"></div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end;align-items:center">
+                        <div id="statusText" class="sub"></div>
+                        <button id="clearBtn" class="btn" style="background:rgba(255,255,255,0.04);color:var(--text)">
+                            <i class="bi bi-x-circle"></i> נקה
+                        </button>
+                    </div>
+                    <div style="margin-top:12px;display:none" id="rawWrap">
+                        <strong><i class="bi bi-code-slash"></i> JSON גולמי</strong>
+                        <pre id="rawJson" class="raw">—</pre>
+                    </div>
+                </div>
+                <footer class="note">
+                    <i class="bi bi-info-circle"></i>
+                    התשובות מיועדות לשימוש כמתכונים כלליים בלבד. אין להסתמך עליו יותר מידי.
+                </footer>
+            </section>
+        </div>
+    </div>
+    <!-- הסקריפט שלך נשאר זהה -->
+    <script>
+        // ... (הקוד שלך כפי שהוא)
+        // Elements
+        const ingredientsEl = document.getElementById('ingredients');
+        const sendBtn = document.getElementById('sendBtn');
+        const loaderArea = document.getElementById('loaderArea');
+        const resultRoot = document.getElementById('resultRoot');
+        const recipeTitle = document.getElementById('recipeTitle');
+        const recipeDesc = document.getElementById('recipeDesc');
+        const badgesRow = document.getElementById('badgesRow');
+        const usedList = document.getElementById('usedList');
+        const missingPanel = document.getElementById('missingPanel');
+        const missingList = document.getElementById('missingList');
+        const instructionsEl = document.getElementById('instructions');
+        const subsEl = document.getElementById('subs');
+        const statusText = document.getElementById('statusText');
+        const clearBtn = document.getElementById('clearBtn');
+        const rawJson = document.getElementById('rawJson');
+        const rawWrap = document.getElementById('rawWrap');
+        const copyBtn = document.getElementById('copyBtn');
+
+        function toggleLoading(loading) {
+            sendBtn.disabled = loading;
+            loaderArea.style.display = loading ? '' : 'none';
+            if (loading) resultRoot.style.display = 'none';
+        }
+
+        function escapeHtml(s) { return s ? s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])) : ''; }
+
+        function render(obj) {
+            resultRoot.style.display = '';
+            recipeTitle.textContent = obj.title || 'מתכון';
+            recipeDesc.textContent = obj.description || '';
+            badgesRow.innerHTML = '';
+            const serv = document.createElement('div'); serv.className = 'badge'; serv.innerHTML = '<i class="bi bi-people"></i> מנות: ' + (obj.servings ?? '-');
+            const time = document.createElement('div'); time.className = 'badge'; time.innerHTML = '<i class="bi bi-clock"></i> זמן: ' + (obj.estimatedTimeMinutes ?? '-') + ' דק׳';
+            badgesRow.appendChild(serv); badgesRow.appendChild(time);
+
+            // ingredientsUsed
+            usedList.innerHTML = '';
+            (obj.ingredientsUsed || []).forEach(it => {
+                const d = document.createElement('div'); d.className = 'item';
+                d.innerHTML = `<strong>${escapeHtml(it.name)}</strong><div class="sub">${escapeHtml(it.quantitySuggested || '')}${it.fromUser ? ' — (מהמשתמש)' : ''}</div>`;
+                usedList.appendChild(d);
+            });
+
+            // missing
+            if (Array.isArray(obj.missingIngredients) && obj.missingIngredients.length) {
+                missingPanel.style.display = '';
+                missingList.innerHTML = '';
+                obj.missingIngredients.forEach(m => {
+                    const d = document.createElement('div'); d.className = 'item';
+                    d.innerHTML = `<span style="color:var(--danger);font-weight:700">${escapeHtml(m)}</span>`;
+                    missingList.appendChild(d);
+                });
+            } else {
+                missingPanel.style.display = 'none';
+            }
+
+            // instructions
+            instructionsEl.innerHTML = '';
+            (obj.instructions || []).forEach(step => {
+                const li = document.createElement('li'); li.textContent = step;
+                instructionsEl.appendChild(li);
+            });
+
+            // substitutions
+            subsEl.innerHTML = '';
+            (obj.substitutions || []).forEach(s => {
+                const d = document.createElement('div'); d.className = 'item';
+                d.innerHTML = `<strong>${escapeHtml(s.missing)}</strong> → ${escapeHtml(s.suggestion)}`;
+                subsEl.appendChild(d);
+            });
+
+            // status + raw
+            statusText.textContent = (obj.status === 'ok') ? 'מוכן — אפשר להתחיל להכין' : (obj.status === 'needs_ingredients' ? 'נדרש רכיבים נוספים' : '');
+            rawJson.textContent = JSON.stringify(obj, null, 2);
+            rawWrap.style.display = 'none';
+        }
+
+        // Extract leading JSON object from possibly-prefixed text
+        function extractLeadingJson(text) {
+            if (!text) return null;
+            const start = text.indexOf('{');
+            if (start === -1) return null;
+            let depth = 0, inStr = false, esc = false;
+            for (let i = start; i < text.length; i++) {
+                const ch = text[i];
+                if (esc) { esc = false; continue; }
+                if (ch === '\\') { esc = true; continue; }
+                if (ch === '"') { inStr = !inStr; continue; }
+                if (inStr) continue;
+                if (ch === '{') depth++;
+                if (ch === '}') { depth--; if (depth === 0) { try { return JSON.parse(text.slice(start, i + 1)); } catch (e) { return null; } } }
+            }
+            return null;
+        }
+
+        async function sendIngredients() {
+            const text = ingredientsEl.value.trim();
+            if (!text) return;
+            toggleLoading(true);
+            try {
+                const res = await fetch('/api/gemini/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(text)
+                });
+
+                const ct = res.headers.get('content-type') || '';
+                let bodyText;
+                if (ct.includes('application/json')) bodyText = JSON.stringify(await res.json());
+                else bodyText = await res.text();
+
+                if (!res.ok) {
+                    statusText.textContent = `שגיאה ${res.status}`;
+                    resultRoot.style.display = '';
+                    recipeTitle.textContent = 'שגיאה מהשרת';
+                    recipeDesc.textContent = bodyText || res.statusText;
+                    rawJson.textContent = bodyText || '';
+                    rawWrap.style.display = '';
+                } else {
+                    const obj = extractLeadingJson(bodyText);
+                    if (obj) render(obj);
+                    else {
+                        // show raw
+                        resultRoot.style.display = '';
+                        recipeTitle.textContent = 'תגובה לא תקינה';
+                        recipeDesc.textContent = 'השרת לא החזיר JSON במבנה הצפוי';
+                        rawJson.textContent = bodyText || '';
+                        rawWrap.style.display = '';
+                    }
+                }
+            } catch (err) {
+                resultRoot.style.display = '';
+                recipeTitle.textContent = 'שגיאת רשת';
+                recipeDesc.textContent = err.message;
+            } finally {
+                toggleLoading(false);
+            }
+        }
+
+        // UI actions
+        sendBtn.addEventListener('click', sendIngredients);
+        ingredientsEl.addEventListener('keydown', e => { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); sendIngredients(); } });
+        clearBtn.addEventListener('click', () => { ingredientsEl.value = ''; resultRoot.style.display = 'none'; rawWrap.style.display = 'none'; });
+        copyBtn.addEventListener('click', () => { navigator.clipboard.writeText(ingredientsEl.value || '').then(() => { copyBtn.textContent = 'הועתק!'; setTimeout(() => copyBtn.textContent = 'העתק רשימת מוצרים', 1200); }).catch(() => { }); });
+
+        // initial
+        (function init() { ingredientsEl.placeholder = 'הכנס כאן את המוצרים שיש בבית (לדוגמה: חלב, ביצים, קמח, עגבניה, בצל, גבינה)'; copyBtn.textContent = 'העתק רשימת מוצרים'; })();
+    </script>
+</body>
+</html>

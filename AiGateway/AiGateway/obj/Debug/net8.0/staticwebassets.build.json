@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "uNKMHvDy6eCItvGLpdmu+LDsB3pQC39jlFBxV/83x+A=",
+  "Source": "AiGateway",
+  "BasePath": "_content/AiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AiGateway\\wwwroot",
+      "Source": "AiGateway",
+      "ContentRoot": "C:\\Users\\לאה הצדיקה\\Desktop\\new\\mcp\\AiGateway\\AiGateway\\wwwroot\\",
+      "BasePath": "_content/AiGateway",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\לאה הצדיקה\\Desktop\\new\\mcp\\AiGateway\\AiGateway\\wwwroot\\index.html",
+      "SourceId": "AiGateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\לאה הצדיקה\\Desktop\\new\\mcp\\AiGateway\\AiGateway\\wwwroot\\",
+      "BasePath": "_content/AiGateway",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w5b5fvli3u",
+      "Integrity": "PB0qgXBANOX4DO/vHHSwsXF3LyO1Me3ELfvMjvLcC/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\לאה הצדיקה\\Desktop\\new\\mcp\\AiGateway\\AiGateway\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PB0qgXBANOX4DO/vHHSwsXF3LyO1Me3ELfvMjvLcC/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Feb 2026 09:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PB0qgXBANOX4DO/vHHSwsXF3LyO1Me3ELfvMjvLcC/I="
+        }
+      ]
+    },
+    {
+      "Route": "index.w5b5fvli3u.html",
+      "AssetFile": "C:\\Users\\לאה הצדיקה\\Desktop\\new\\mcp\\AiGateway\\AiGateway\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PB0qgXBANOX4DO/vHHSwsXF3LyO1Me3ELfvMjvLcC/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Feb 2026 09:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w5b5fvli3u"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PB0qgXBANOX4DO/vHHSwsXF3LyO1Me3ELfvMjvLcC/I="
+        }
+      ]
+    }
+  ]
+}
